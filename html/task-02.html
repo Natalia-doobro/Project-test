@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <style>
+       .label-money{
+           font-size: 28px;
+       } 
+       .input-money{
+           width: 250px;
+           height: 28px;
+           font-size: 18px;
+       }
+    </style>
+</head>
+<body>
+    <p><a href="../index.html">To main</a></p>
+
+    <h2>Чистый JS: сделать маску ввода на инпуте например для суммы с копейками *.00 (если отличается от
+    маски то не вводится ничего) Вместо * любое количество цифр, там где 00 (это две любые цифры)</h2>
+
+    <label for="sum-money" class="label-money">Enter the amount </label>
+    <input type="text" name="money" placeholder="0.00" id="sum-money" class="input-money">
+
+
+    <script src="https://unpkg.com/imask"></script>
+    <script src="../js/task-02.js" type="module"></script>
+</body>
+</html>
